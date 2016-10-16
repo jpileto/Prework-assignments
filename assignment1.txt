@@ -1,0 +1,22 @@
+def add(x, y)
+  puts x + y
+end
+
+add(7, 2)
+
+fave_cities = ["Toronto", "Dallas", "London", "New York", "San Francisco"]
+fave_cities.each do |x| puts "My favourite city is #{x}."
+end
+
+n = (1..100)
+n.each do |n|
+    if n % 3 == 0 && n % 5 == 0
+      puts "BitmakerHQ"
+    elsif n % 3 == 0
+      puts "Bitmaker"
+    elsif n % 5 == 0
+      puts "HQ"
+    else
+      puts n
+    end
+end
